@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pm, pedidos</title>
+
+</head>
+<body>
+    <img src="./assets/img/Logo.png" alt="" width="100px">
+    <h1>PASTELERÍA MASA</h1>
+    <h2>¡SON DE OTRO MUNDO!</h2>
+    <p>Seleccióne un tipo de pastel que desea sus sabores y añadidos:</p><br>
+    
+    <form action="./assets/pedido.js">
+
+        <p>Sleccione los sabores de su pastel:</p>
+        <input type="checkbox" id="Primer sabor de pastel" name="Primer sabor de pastel" value="Pastel de 3 leches">
+        <label for="Primer sabor de pastel">Pastel de 3 leches..............................................$110 (Por sección**)</label><br>
+        <input type="checkbox" id="Segundo sabor de pastel" name="Segundo sabor de pastel" value="Pastel de fresa">
+        <label for="Segundo sabor de pastel">Pastel de fresa...................................................$100 (Por sección**)</label><br>
+        <input type="checkbox" id="Tercer sabor de pastel" name="Tercer sabor de pastel" value="Pastel de chocolate">
+        <label for="Tercer sabor de pastel">Pastel de chocolate............................................$120 (Por sección**)</label><br>
+        <input type="checkbox" id="Cuarto sabor de pastel" name="Cuarto sabor de pastel" value="Pastel de vainilla y almendra">
+        <label for="Cuarto sabor de pastel">Pastel de vainilla y almendra..............................$100 (Por sección**)</label><br>
+        <input type="checkbox" id="Quinto sabor de pastel" name="Quinto sabor de pastel" value="Pastel arcoiris">
+        <label for="Quinto sabor de pastel">Pastel arcoiris (de frutas y niveles de color).......$150 (Por sección**)</label><br>
+
+        <br><br>
+    
+        <p>Sleccione los adornos** de su pastel:</p>
+        <input type="checkbox" id="Primer adorno de pastel" name="Primer adorno de pastel" value="Frutas de temporada">
+        <label for="Primer adorno de pastel">Frutas de temporada.......................................$40 (Por sección**)</label><br>
+        <input type="checkbox" id="Segundo adorno de pastel" name="Segundo adorno de pastel" value="Frutos rojos">
+        <label for="Segundo adorno de pastel">Frutos rojos.....................................................$50 (Por sección**)</label><br>
+        <input type="checkbox" id="Tercer adorno de pastel" name="Tercer adorno de pastel" value="Chispas de chocolate">
+        <label for="Tercer adorno de pastel">Chispas de chocolate......................................$30 (Por sección**)</label><br>
+        <input type="checkbox" id="Cuarto adorno de pastel" name="Cuarto adorno de pastel" value="Galleta">
+        <label for="Cuarto adorno de pastel">Galleta.............................................................$35 (Por sección**)</label><br>
+
+        <br><br>
+
+        <p>Para completar su pedido ingrese sus datos para levantar tu pedido:</p><br>
+        <label for="Nombre">Ingresa tu nombre completo:</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+        <label for="Telefono">Ingresa tu numero de telefono:</label><br>
+        <input type="number" id="Numero de telefono" name="Numero de telefono" placeholder="0123456789"><br>
+        <label for="Correo electronico">Ingresa tu correo electronico:</label><br>
+        <input type="email" id="Correo electronico" name="Correo electronico" placeholder="marte@hotmail.com"><br>
+        <label for="Fecha de entrega">Ingresa la fecha en la que se entregara su pedido:</label><br>
+        <input type="date" name="Fecha de entrega" id="Fecha de entrega"><br>
+        <label for="Lugar de entrega">Donde se entregara su pedido: ¿Se entregara en su domicilio*** o usted lo recogera en tienda?</label><br>
+        <input type="radio" name="Lugar de entrega" id="Lugar de entrega">
+        <label for="En tienda">Lo recogere en tienda</label><br>
+        <input type="radio" name="Lugar de entrega a domicilio" id="Lugar de entrega a domicilio">
+        <label for="Entrega a domicilio"><input type="text" id="Domicilio" name="Domicilio" placeholder="Ingrese su domicilio***"><br>
+
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+
+        <h6>*El combinar sabores no tienen un coste adicional, los sabores se repatiran por secciones que se cubriraran por la cubierta que seleccione.<h6>
+        <h6>**Cada sección tiene dimensiones de 40cmx30cm y 12cm de altura. </h6>
+        <h6>***Las entregas a domicilio tienen un coste adicional de 50 pesos mexicanos.</h6>
+        
+        <br><br>
+
+    </form>
+
+</body>
+</html>
